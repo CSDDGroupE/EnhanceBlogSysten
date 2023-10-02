@@ -1,22 +1,17 @@
 [
     {
-        "title": "hahah",
-        "category": "Travel",
-        "content": "my baby is a baby"
-    },
-    {
-        "title": "ewf",
-        "category": "Technology",
-        "content": "wefhwiefi"
-    },
-    {
-        "title": "erk4krgfg3",
+        "title": "My first blog",
         "category": "Food",
-        "content": "ifj34ogf3"
+        "content": "Food is something I will love under any circumstances"
     },
     {
-        "title": "ttttt",
-        "category": "Lifestyle",
-        "content": "ebeftb"
+        "title": "My second blog",
+        "category": "Travel",
+        "content": "Ha ha ha, I'm an introvert, I barely go out"
+    },
+    {
+        "title": "My third blog",
+        "category": "Technology",
+        "content": "I love gaming"
     }
 ]

@@ -12,5 +12,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents('blog_posts.json', json_encode($posts, JSON_PRETTY_PRINT));
 }
 
-header('Location: index2.php');
+header('Location: dashboard.php');
 ?>
