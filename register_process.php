@@ -13,18 +13,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($users[$username])) {
         echo 'Username already exists. <a href="register.php">Try again</a>';
     } else {
-        // Hash the password (for simplicity, not secure)
-        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        
+       
         // Store user data
         $users[$username] = [
-            'password' => $hashedPassword,
+            'password' => $password,
         ];
         
         file_put_contents($usersFile, json_encode($users));
 
         // Redirect to login page
-        header('Location: login.php');
+        header('Location: index.php');
         exit;
     }
 } else {
