@@ -44,7 +44,7 @@ session_start();
         </form>
     </div>
     <div class="space-container">
-        hello
+
     </div>
     <footer>
         <div class="footer-content">

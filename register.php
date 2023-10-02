@@ -18,7 +18,7 @@ if (isset($_SESSION['user'])) {
     ?> 
     <div class="login-container">
         <form class="login-form" action="register_process.php" method="post">
-            <h2>Login</h2>
+            <h2>Register</h2>
             <div class="input-container">
                 <label for="username">Username or Email:</label>
                 <input type="text" id="username" name="username" required>
